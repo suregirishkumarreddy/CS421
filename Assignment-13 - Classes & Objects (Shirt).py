@@ -15,10 +15,10 @@ class shirt_details:
         print("Price : " + self.price)
 
 # Creating an instance of Shirt
-shirt_lee = shirt_details("Lee", "Button Down", "Blue", "Large", "29.99")
-shirt_levis = shirt_details("Levis", "T-Shirt", "Green", "X-Large", "24.99")
+shirt_1 = shirt_details("Lee", "Button Down", "Blue", "Large", "29.99")
+shirt_2 = shirt_details("Levis", "T-Shirt", "Green", "X-Large", "24.99")
 
 
 # Print the details of Shirt added
-shirt_lee.getDetails()
-shirt_levis.getDetails()
+shirt_1.getDetails()
+shirt_2.getDetails()
